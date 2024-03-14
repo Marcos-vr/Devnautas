@@ -22,7 +22,7 @@
                 <img src="./img/chevrolet-tracker-rs-2024.jpg" class="card-img" alt="...">
                 <div class="card-img-overlay">
                     <h5 class="card-title">Nome</h5>
-                    <p class="card-text">Descrição inspiradora</p>
+                    <h5 class="card-text">Descrição inspiradora</h5>
                 </div>
             </div>
             <div class="card-body">
@@ -30,18 +30,18 @@
                     <li class="list-group-item text-center  bg-dark text-white">
                         <h1>Nome</h1>
                     </li>
-                    <li class="list-group-item  bg-dark text-white">Descrição</li>
-                    <li class="list-group-item  bg-dark text-white">Valor: R$1.000,00</li>
+                    <li class="list-group-item  bg-dark text-white"><h5>Descrição</h5></li>
+                    <li class="list-group-item  bg-dark text-white"><h5>Valor: R$1.000,00</h5></li>
                     <select class="form-select  bg-dark text-white" aria-label="Default select example">
-                        <option selected>Forma de pagamento</option>
-                        <option value="1">Dinheiro</option>
-                        <option value="2">Cartão</option>
+                        <option selected><h5>Forma de pagamento</h5></option>
+                        <option value="1"><h5>Dinheiro</h5></option>
+                        <option value="2"><h5>Cartão</h5></option>
                     </select>
                 </ul>
                 <br>
                 <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                    <a href="pagina.php" class="btn btn-outline-danger me-md-2" type="button">Cancelar</a>
-                    <button class="btn btn btn-outline-success" type="button">Comprar</button>
+                    <a href="pagina.php" class="btn btn-lg btn-outline-danger me-md-2" type="button">Cancelar</a>
+                    <button class="btn btn-lg btn-outline-success" type="button">Comprar</button>
                 </div>
             </div>
         </div>

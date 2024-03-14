@@ -18,7 +18,7 @@ include_once 'func/funcoes.php';
     <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#"><img src="./img/images.jpg" width="45px;"></a>
-            <a type="button" class="btn btn-outline-danger" href="pagina.php">Sair</a>
+            <a type="button" class="btn btn-lg btn-outline-danger" href="pagina.php">Sair</a>
         </div>
 
     </nav>
@@ -33,15 +33,15 @@ include_once 'func/funcoes.php';
                     </div>
                     <br>
                     <div class="text-center">
-                        <button class="btn btn-secondary btn-lg text-white" style="width: 200px;" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
-                            Cadastros
+                        <button class="btn btn-lg btn-secondary btn-lg text-white" style="width: 250px;" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+                        <h5>Cadastros</h5>
                         </button>
                         <div>
                             <div class="collapse collapse-horizontal" id="collapseWidthExample">
-                                <div class="card drp text-center" style="width: 200px;">
+                                <div class="card drp text-center" style="width: 250px;">
                                     <div class="list-group">
-                                        <button type="button" class="list-group-item list-group-item-action fw-bold" onclick="carregarConteudo('listaProduto')">Produto</button>
-                                        <button type="button" class="list-group-item list-group-item-action fw-bold" onclick="carregarConteudo('listaProp')">Proprietário</button>
+                                        <button type="button" class="list-group-item list-group-item-action fw-bold" onclick="carregarConteudo('listaProduto')"><h5>Produto</h5></button>
+                                        <button type="button" class="list-group-item list-group-item-action fw-bold" onclick="carregarConteudo('listaProp')"><h5>Proprietário</h5></button>
                                     </div>
                                 </div>
                             </div>

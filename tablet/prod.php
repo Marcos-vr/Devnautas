@@ -11,7 +11,7 @@
 
 <body>
     <div class="d-flex flex-row-reverse">
-        <button type="button" class="btn btn-primary p-2 cads mt-2" data-bs-toggle="modal" data-bs-target="#produtoAddModal">
+        <button type="button" class="btn btn-lg btn-primary p-2 cads mt-2" data-bs-toggle="modal" data-bs-target="#produtoAddModal">
             Cadastrar
         </button>
     </div>
@@ -19,36 +19,36 @@
     <table class="table table-bordered border-black border-0 text-center caption-top mt-2">
         <thead>
             <caption class="text-center bg-info border border-black border-4">
-                <h2>Produto</h2>
+                <h1>Produto</h1>
             </caption>
             <tr>
                 <th scope="col">
-                    <h5>Código</h5>
+                    <h4>Código</h4>
                 </th>
                 <th scope="col">
-                    <h5>Nome</h5>
+                    <h4>Nome</h4>
                 </th>
                 <th scope="col">
-                    <h5>Foto</h5>
+                    <h4>Foto</h4>
                 </th>
                 <th scope="col">
-                    <h5>Detalhes</h5>
+                    <h4>Detalhes</h4>
                 </th>
                 <th scope="col">
-                    <h5>Ação</h5>
+                    <h4>Ação</h4>
                 </th>
             </tr>
         </thead>
         <tbody>
                     <tr>
-                        <th scope="row">Produto</th>
-                        <td>Nome</td>
+                        <th scope="row"><h5>Produto</h5></th>
+                        <td><h5>Nome</h5></td>
                         <td><img src="./img/images.jpg" width="100px"></td>
-                        <td>Detalhes</td>
+                        <td><h5>Detalhes</h5></td>
                         <td>
-                            <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#produtoAltModal">Alterar</button>
-                            <button type="button" class="btn btn-success">Ver mais</button>
-                            <button type="button" class="btn btn-danger">Excluir</button>
+                            <button type="button" class="btn btn-lg btn-warning" data-bs-toggle="modal" data-bs-target="#produtoAltModal">Alterar</button>
+                            <button type="button" class="btn btn-lg btn-success">Ver mais</button>
+                            <button type="button" class="btn btn-lg btn-danger">Excluir</button>
                         </td>
                     </tr>
         </tbody>

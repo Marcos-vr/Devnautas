@@ -15,14 +15,14 @@
             <a class="navbar-brand" href="#"><img src="./img/images.jpg" width="45px;"></a>
             <form class="d-flex" role="search">
                 <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Buscar</button>
+                <button class="btn btn-lg btn-outline-success" type="submit">Buscar</button>
             </form>
         </div>
     </nav>
 
     <div class="container-fluid">
         <div class="row mt-5">
-            <div class="col-sm-1"></div>
+            <div class="col-md-1"></div>
             <div class="col-md-10">
                 <div class="card bg-dark text-white">
                     <div class="row g-0">
@@ -32,11 +32,11 @@
                         <div class="col-md-6">
                             <div class="card-body">
                                 <h5 class="card-title o text-decoration-underline">Carro 1</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <h5 class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</h5>
                                 <hr>
                                 <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                                    <button class="btn btn-outline-warning text-white me-md-2" type="button" data-bs-toggle="modal" data-bs-target="#carro1">Detalhes</button>
-                                    <a href="comprar.php" class="btn btn btn-outline-success text-white" type="button">Comprar</a>
+                                    <button class="btn btn-lg btn-outline-warning text-white me-md-2" type="button" data-bs-toggle="modal" data-bs-target="#carro1">Detalhes</button>
+                                    <a href="comprar.php" class="btn btn-lg btn btn-outline-success text-white" type="button">Comprar</a>
                                 </div>
                             </div>
                         </div>
@@ -58,11 +58,11 @@
                         <div class="col-md-6">
                             <div class="card-body">
                                 <h5 class="card-title o text-decoration-underline">Carro 2</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <h5 class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</h5>
                                 <hr>
                                 <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                                    <button class="btn btn-outline-warning text-white me-md-2" type="button" data-bs-toggle="modal" data-bs-target="#carro2">Detalhes</button>
-                                    <a href="comprar.php" class="btn btn btn-outline-success text-white" type="button">Comprar</a>
+                                    <button class="btn btn-lg btn-outline-warning text-white me-md-2" type="button" data-bs-toggle="modal" data-bs-target="#carro2">Detalhes</button>
+                                    <a href="comprar.php" class="btn btn-lg btn btn-outline-success text-white" type="button">Comprar</a>
                                 </div>
                             </div>
                         </div>
@@ -84,11 +84,11 @@
                         <div class="col-md-6">
                             <div class="card-body">
                                 <h5 class="card-title o text-decoration-underline">Carro 3</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <h5 class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</h5>
                                 <hr>
                                 <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                                    <button class="btn btn-outline-warning text-white me-md-2" type="button" data-bs-toggle="modal" data-bs-target="#carro3">Detalhes</button>
-                                    <a href="comprar.php" class="btn btn btn-outline-success text-white" type="button">Comprar</a>
+                                    <button class="btn btn-lg btn-outline-warning text-white me-md-2" type="button" data-bs-toggle="modal" data-bs-target="#carro3">Detalhes</button>
+                                    <a href="comprar.php" class="btn btn-lg btn btn-outline-success text-white" type="button">Comprar</a>
                                 </div>
                             </div>
                         </div>
@@ -110,11 +110,11 @@
                         <div class="col-md-6">
                             <div class="card-body">
                                 <h5 class="card-title o text-decoration-underline">Carro 4</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <h5 class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</h5>
                                 <hr>
                                 <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                                    <button class="btn btn-outline-warning text-white me-md-2" type="button" data-bs-toggle="modal" data-bs-target="#carro4">Detalhes</button>
-                                    <a href="comprar.php" class="btn btn btn-outline-success text-white" type="button">Comprar</a>
+                                    <button class="btn btn-lg btn-outline-warning text-white me-md-2" type="button" data-bs-toggle="modal" data-bs-target="#carro4">Detalhes</button>
+                                    <a href="comprar.php" class="btn btn-lg btn btn-outline-success text-white" type="button">Comprar</a>
                                 </div>
                             </div>
                         </div>
@@ -136,11 +136,11 @@
                         <div class="col-md-6">
                             <div class="card-body">
                                 <h5 class="card-title o text-decoration-underline">Carro 5</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <h5 class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</h5>
                                 <hr>
                                 <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                                    <button class="btn btn-outline-warning text-white me-md-2" type="button" data-bs-toggle="modal" data-bs-target="#carro5">Detalhes</button>
-                                    <a href="comprar.php" class="btn btn btn-outline-success text-white" type="button">Comprar</a>
+                                    <button class="btn btn-lg btn-outline-warning text-white me-md-2" type="button" data-bs-toggle="modal" data-bs-target="#carro5">Detalhes</button>
+                                    <a href="comprar.php" class="btn btn-lg btn btn-outline-success text-white" type="button">Comprar</a>
                                 </div>
                             </div>
                         </div>
@@ -162,11 +162,11 @@
                         <div class="col-md-6">
                             <div class="card-body">
                                 <h5 class="card-title o text-decoration-underline">Carro 6</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <h5 class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</h5>
                                 <hr>
                                 <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                                    <button class="btn btn-outline-warning text-white me-md-2" type="button" data-bs-toggle="modal" data-bs-target="#carro6">Detalhes</button>
-                                    <a href="comprar.php" class="btn btn btn-outline-success text-white" type="button">Comprar</a>
+                                    <button class="btn btn-lg btn-outline-warning text-white me-md-2" type="button" data-bs-toggle="modal" data-bs-target="#carro6">Detalhes</button>
+                                    <a href="comprar.php" class="btn btn-lg btn-outline-success text-white" type="button">Comprar</a>
                                 </div>
                             </div>
                         </div>
