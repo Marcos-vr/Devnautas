@@ -30,13 +30,22 @@
                     <li class="list-group-item text-center  bg-dark text-white">
                         <h1>Nome</h1>
                     </li>
-                    <li class="list-group-item  bg-dark text-white"><h5>Descrição</h5></li>
-                    <li class="list-group-item  bg-dark text-white"><h5>Valor: R$1.000,00</h5></li>
-                    <select class="form-select  bg-dark text-white" aria-label="Default select example">
-                        <option selected><h5>Forma de pagamento</h5></option>
-                        <option value="1"><h5>Dinheiro</h5></option>
-                        <option value="2"><h5>Cartão</h5></option>
-                    </select>
+                    <li class="list-group-item  bg-dark text-white">
+                        <h5>Descrição</h5>
+                    </li>
+                    <li class="list-group-item  bg-dark text-white">
+                        <h5>Valor: R$1.000,00</h5>
+                    </li>
+                    <ul class="list-group">
+                        <li class="list-group-item bg-dark text-white">
+                            <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="firstRadio" checked>
+                            <label class="form-check-label" for="firstRadio">Dinheiro</label>
+                        </li>
+                        <li class="list-group-item bg-dark text-white">
+                            <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="secondRadio">
+                            <label class="form-check-label" for="secondRadio">Cartão</label>
+                        </li>
+                    </ul>
                 </ul>
                 <br>
                 <div class="d-grid gap-2 d-md-flex justify-content-md-end">
